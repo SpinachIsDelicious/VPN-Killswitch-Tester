@@ -3,8 +3,7 @@ import time
 
 def sigma():
     try:
-        ip = "158.101.31.180"
-        # ip = "127.0.0.1"
+        ip = "ENTER IP HERE"
         port = 13452
         
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
